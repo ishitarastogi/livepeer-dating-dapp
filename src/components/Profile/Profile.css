@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.container {
+  /* background-image: linear-gradient(
+    to right top,
+    #e981df,
+    #d96bcb,
+    #c854b7,
+    #b83ca3,
+    #a81f90
+  ); */
+  background: url("https://cdn5.vectorstock.com/i/1000x1000/36/39/cartoon-color-characters-people-and-online-dating-vector-35703639.jpg");
+  background-size: cover;
+  height: 128vh;
+  /* padding: 3rem 2rem; */
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input {
+  appearance: none;
+  border-radius: 0;
+}
+
+.card {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 645px;
+  height: 945px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 0 rgba(#999, 0.25);
+  padding: 0.75rem;
+}
+.asset{
+  margin-top: 50px;
+  padding: 0 1rem;
+}
+.btn2{
+margin: 1rem;
+padding: 3px 6px;
+}
+.btn2:hover{
+  cursor: pointer;
+}
+.asset-label{
+  color: #8597a3;  display: block;
+}
+.asset::input{
+  display: block;
+
+}
+.card-image {
+  border-radius: 8px;
+  overflow: hidden;
+  padding-bottom: 25%;
+  background-image: url("https://i.ytimg.com/vi/k-g_5_wCJ2U/maxresdefault.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 45%;
+  position: relative;
+  opacity: 0.8;
+}
+
+.card-heading {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  right: 10%;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: rgb(68, 7, 45);
+  line-height: 1.222;
+  /* small {
+		display: block;
+		font-size: .75em;
+		font-weight: 400;
+		margin-top: .25em;
+	} */
+}
+
+.card-form {
+  padding: 2rem 1rem 0;
+}
+
+.input {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  padding-top: 1.5rem;
+  /* &+.input {
+		margin-top: 1.5rem;
+	} */
+}
+
+.input-label {
+  color: #a38597;
+  position: absolute;
+  top: 0.2rem;
+  transition: 0.25s ease;
+}
+
+.input-field {
+  border: 0;
+  z-index: 1;
+  background-color: transparent;
+  border-bottom: 2px solid #eee;
+  font: inherit;
+  font-size: 1.125rem;
+  padding: 0.25rem 0;
+  /* &:focus, &:valid {
+		outline: 0;
+		border-bottom-color: #6658d3;
+		&+.input-label {
+			color: #6658d3;
+			transform: translateY(-1.5rem);
+		}
+	} */
+}
+
+.action {
+  margin-top: 1rem;
+}
+
+.action-button {
+  margin: 0 auto;
+  display: block;
+  font: inherit;
+  /* font-size: 1.25rem; */
+  padding: 1em;
+  width: 30%;
+  font-weight: 500;
+  background-color: #6658d3;
+  border-radius: 6px;
+  color: #fff;
+  border: 0;
+
+  /* &:focus {
+		outline: 0;
+	} */
+}
+
+.card-info {
+  padding: 1rem 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #8597a3;
+  /* a {
+		display: block;
+		color: #6658d3;
+		text-decoration: none;
+	} */
+}
+.nav-items {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  background: #03001e;
+  background: -webkit-linear-gradient(
+    to right,
+    #c45ca6,
+    #ec38bc,
+    #be3067,
+    #03001e
+  );
+  background: linear-gradient(to right, #c02995, #ec38bc, #be3067, #03001e);
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.nav-items p {
+  text-decoration: none;
+  display: block;
+  padding: 0em 1em;
+  color: white;
+  font-size: 2 em;
+}
+
+.nav-items p:hover {
+  text-decoration: underline;
+}
+.nav-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.items {
+  float: left;
+}

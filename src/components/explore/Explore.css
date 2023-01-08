@@ -1,0 +1,15 @@
+.cards1{
+	border:5px solid gray;
+	height: 70vh;
+	width: 50%;
+	margin:0 auto;
+}
+.cards2{
+	margin-top: 40px;
+	display: flex;
+	padding: 12px;
+}
+.v{
+	height: 100px;
+	width: 30px
+}
