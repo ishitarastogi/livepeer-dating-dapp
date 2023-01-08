@@ -45,7 +45,30 @@ useEffect(() => {
   return (
     <div className="cards2">
       <div className="cards1">
-        <h1>Name: Riico</h1>
+      {data.explorePublications.items.map((data, index) => (
+          <Card>
+   
+            <div key={index} className="main">
+              <div className="header">
+                <img
+                  onClick={() => navigate(`/profile/${data.profile.handle}`)}
+                  width="80px"
+                  height="80px"
+                  src={data.profile?.picture?.original?.url}
+                ></img>
+                <div>
+                  <p>@{data.profile?.handle}</p>
+                    <p>{addr}</p>
+                  <p>{data.metadata?.content}</p>
+                </div>
+              </div>
+              <img src={data?.profile?.coverPicture?.original?.url}></img>
+              <div>
+                <h2>{data.profile?.name}</h2>
+                <p className="createdAt">{moment(data.createdAt).fromNow()}</p>
+              </div>
+            </div>
+        
         <br />
         <h3>
           Penguins are living lessons in caring for the earth and its creatures,
