@@ -12,7 +12,7 @@
 ## Dating Profile
 https://user-images.githubusercontent.com/46647968/212258501-1a5cedaf-4ed3-4e99-9ee7-c797de9be9a0.mov
 
-### Areweve Deployment link
+### Arweave Deployment link
 https://jliewvfbhfoarenmyqbe3rzvcnccnodvsxzvrpg4rl42bjnbib7q.arweave.net/StBLVKE5XAiRrMQCTcc1E0QmuHWV81i83Ir5oKWhQH8
 
 
