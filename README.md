@@ -12,4 +12,6 @@
 ## Video Player using livepeer
 <img width="1428" alt="Screenshot 2023-01-08 at 11 00 39 PM" src="https://user-images.githubusercontent.com/46647968/211210268-ce3620b2-ed62-4083-bf12-192dcff42c1d.png">
 
+### Areweve Deployment link
+https://jliewvfbhfoarenmyqbe3rzvcnccnodvsxzvrpg4rl42bjnbib7q.arweave.net/StBLVKE5XAiRrMQCTcc1E0QmuHWV81i83Ir5oKWhQH8
 
